@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore sensitive data files
+all_together_no_duplicates_no_missing_filtered.csv
+Pollster_vs_Metrics_Predicted.csv
+Pollster_vs_Metrics.csv
+SA_df.csv
+
+# Python-related exclusions
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+
 # Distribution / packaging
 .Python
 build/
